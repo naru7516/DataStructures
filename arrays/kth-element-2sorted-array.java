@@ -13,7 +13,7 @@ class Solution {
         int i=0, j=0, curr_k=0;
         while(i<n && j<m){
             if(arr1[i]<arr2[j]){
-                curr_k++;
+                curr_k++ ;
                 if(k==curr_k) return arr1[i];
                 i++;
             } else {
